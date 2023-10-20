@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 brew "bash"
 brew "coreutils"
+brew "curl"
 brew "git"
 brew "go"
 brew "gron"
