@@ -1,0 +1,21 @@
+[diff]
+tool = code
+
+[difftool "code"]
+cmd = code --wait --diff $LOCAL $REMOTE
+
+[init]
+defaultBranch = main
+
+[merge]
+tool = code
+
+[mergetool "code"]
+cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
+
+[pull]
+rebase = false
+
+[user]
+name = Patrick Huber
+email = 44550823+phuber92@users.noreply.github.com
