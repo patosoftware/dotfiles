@@ -4,6 +4,11 @@ case $- in
       *) return;;
 esac
 
+STARSHIP_BIN=$(which starship)
+if [ "$STARSHIP_BIN" != "" ]; then
+    eval "$($STARSHIP_BIN init bash)"
+fi
+
 # Append to the history file instead of overwrite
 shopt -s histappend
 # Unlimited command history
