@@ -1,0 +1,11 @@
+bash
+coreutils
+curl
+git
+go
+gron
+htop
+jq
+python@3.11
+rsync
+starship
