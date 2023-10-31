@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -eu
+
+sudo apt-get update
+sudo apt-get --yes upgrade
+sudo apt-get --yes install bash coreutils curl git golang gron htop jq python3
