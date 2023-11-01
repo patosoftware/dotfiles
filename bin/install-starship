@@ -2,4 +2,10 @@
 
 set -eu
 
-curl -sS https://starship.rs/install.sh | sh
+CACHE_DIR=$HOME/.cache/starship
+
+/usr/bin/mkdir -p "$CACHE_DIR"
+cd "$CACHE_DIR"
+/usr/bin/curl -sSO https://starship.rs/install.sh
+/usr/bin/sh "$CACHE_DIR"/install.sh --yes
+/usr/bin/rm "$CACHE_DIR"/install.sh
