@@ -16,5 +16,5 @@ HISTCONTROL=ignoreboth:erasedups
 shopt -s checkwinsize
 
 # Aliases
-alias ls='ls --color=auto'
-alias ll='ls -lah'
+alias ls="ls --color=auto"
+alias ll="ls -lah"
