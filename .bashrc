@@ -1,9 +1,3 @@
-# Non-interactive shell guard
-case $- in
-    *i*) ;;
-      *) return;;
-esac
-
 STARSHIP_BIN=$(which starship)
 if [ "$STARSHIP_BIN" != "" ]; then
     eval "$($STARSHIP_BIN init bash)"
