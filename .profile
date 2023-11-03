@@ -11,7 +11,7 @@ export XDG_CACHE_HOME=$HOME/.cache
 export XDG_RUNTIME_DIR=/run/user/$UID
 
 # Export ssh-agent socket file path
-export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR"ssh-agent.sock
+export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.sock
 
 # Setup bash
 if [ -n "$BASH_VERSION" ]; then
