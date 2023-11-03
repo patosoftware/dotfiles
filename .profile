@@ -15,3 +15,6 @@ if [ -n "$BASH_VERSION" ]; then
 	. "$HOME/.bashrc"
     fi
 fi
+
+# Export ssh-agent socket file path
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR"ssh-agent.sock
