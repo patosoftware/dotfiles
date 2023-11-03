@@ -1,9 +1,7 @@
-# Prepend $HOME/.local/bin to PATH if it exists
+# XDG settings
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
-
-# XDG directory settings
 export XDG_DATA_HOME=$HOME/.local/share
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_STATE_HOME=$HOME/.local/state
