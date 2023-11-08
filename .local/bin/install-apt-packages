@@ -9,6 +9,7 @@ sudo apt-get --yes install \
     bind9-dnsutils \
     coreutils \
     curl \
+    fonts-hack \
     git \
     golang \
     gron \
