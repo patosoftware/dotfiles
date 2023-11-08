@@ -3,7 +3,7 @@
 ```shell
 cd ~
 git init
-git remote add origin git@github.com:phuber92/dotfiles.git
+git remote add origin git@github.com:patothaduck/dotfiles.git
 git fetch
 git checkout -f main
 ```
